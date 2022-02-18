@@ -19,12 +19,13 @@ Print both the values it would be interchanged
 End the program
 ## PROGRAM:
 ```
-a=int(input())
-b=int(input())
-temp=a
-a=b
-b=temp
-print("Swapped values are;",a,b)
+#Program to swap two values.
+#Developed by: Evangelin.S
+#RegisterNumber: 21500561
+a = int(input())
+b = int(input())
+a,b = b,a
+print("Swapped values are:",a,b)
 ```
 ## OUTPUT:
 ![swap](https://user-images.githubusercontent.com/94219798/143671116-7f194f3d-679b-4361-a720-927b93bf07a3.PNG)
